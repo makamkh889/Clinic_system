@@ -1,0 +1,464 @@
+[
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.AccountManagment.Controller.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.AccountManagment.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.AccountManagment.Controller.AccountController",
+    "Method": "LogOut",
+    "RelativePath": "api/Account/LogOut",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.AccountManagment.Controller.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/reg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.AccountManagment.DTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.DrugHistoryManagment.Controllers.DrugHistoryController",
+    "Method": "DeleteInvestagation",
+    "RelativePath": "api/DrugHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.DrugHistoryManagment.Controllers.DrugHistoryController",
+    "Method": "GetInvestagationsByVisitId",
+    "RelativePath": "api/DrugHistory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.DrugHistoryManagment.Controllers.DrugHistoryController",
+    "Method": "DeleteInvestagation",
+    "RelativePath": "api/DrugHistory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.DrugHistoryManagment.Controllers.DrugHistoryController",
+    "Method": "DeleteInvestagation",
+    "RelativePath": "api/DrugHistory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.InvestigationMangment.Controllers.InvestigationController",
+    "Method": "AddInvestagation",
+    "RelativePath": "api/Investigation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addInvestagatioDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.InvestigationMangment.CQRS.Command.AddInvestagationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.InvestigationMangment.Controllers.InvestigationController",
+    "Method": "GetInvestagationsByVisitId",
+    "RelativePath": "api/Investigation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.InvestigationMangment.Controllers.InvestigationController",
+    "Method": "EditInvestagation",
+    "RelativePath": "api/Investigation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editInvestagationDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.InvestigationMangment.DTO.EditInvestagatioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.InvestigationMangment.Controllers.InvestigationController",
+    "Method": "DeleteInvestagation",
+    "RelativePath": "api/Investigation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicalHistoryManagment.MedicalHistoryController",
+    "Method": "AddMedicalHistory",
+    "RelativePath": "api/MedicalHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "historyDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.MedicalHistoryManagment.DTO.AddMedicalHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicalHistoryManagment.MedicalHistoryController",
+    "Method": "EditMedicalHistory",
+    "RelativePath": "api/MedicalHistory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "historyDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.MedicalHistoryManagment.DTO.EditMedicalHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicalHistoryManagment.MedicalHistoryController",
+    "Method": "GetMedicalHistoryByPatientId",
+    "RelativePath": "api/MedicalHistory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicineMangment.Controller.MedicineController",
+    "Method": "AddMedicine",
+    "RelativePath": "api/Medicine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addMedicineDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.MedicineMangment.DTO.AddMedicineDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicineMangment.Controller.MedicineController",
+    "Method": "UploadExcel",
+    "RelativePath": "api/Medicine/upload-excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.PatientManagment.PatientController",
+    "Method": "AddPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addPatientDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.PatientManagment.DTOs.AddPatientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.PatientManagment.PatientController",
+    "Method": "GetAllPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.PatientManagment.PatientController",
+    "Method": "EditPatient",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editPatientDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.PatientManagment.DTOs.EditPatientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.PatientManagment.PatientController",
+    "Method": "GetPatient",
+    "RelativePath": "api/Patient/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.PatientManagment.PatientController",
+    "Method": "GetPatient",
+    "RelativePath": "api/Patient/name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.TreatmentManagment.Controller.TreatmentController",
+    "Method": "AddTreatment",
+    "RelativePath": "api/Treatment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addTreatmentDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.TreatmentManagment.DTO.AddTreatmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.TreatmentManagment.Controller.TreatmentController",
+    "Method": "EditTreatment",
+    "RelativePath": "api/Treatment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editTreatmentDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.TreatmentManagment.DTO.EditTreatmentPlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.TreatmentManagment.Controller.TreatmentController",
+    "Method": "GetTreatmentByVisitId",
+    "RelativePath": "api/Treatment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.VisitManagment.VisitController",
+    "Method": "GetById",
+    "RelativePath": "api/Visit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.VisitManagment.VisitController",
+    "Method": "EditVisit",
+    "RelativePath": "api/Visit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editVisitDTO",
+        "Type": "Clinic_managment_System.Clinic_System.Features.VisitManagment.DTO.EditVisitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.VisitManagment.VisitController",
+    "Method": "GetVisitByPatientId",
+    "RelativePath": "api/Visit/GetVBPat/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicineMangment.Controller.MedicineController",
+    "Method": "SearchByCode",
+    "RelativePath": "SearchByCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clinic_managment_System.Clinic_System.Features.MedicineMangment.Controller.MedicineController",
+    "Method": "SearchByName",
+    "RelativePath": "SearchByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

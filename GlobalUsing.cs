@@ -1,0 +1,7 @@
+﻿global using Clinic_managment_System.Clinic_System.Features.VisitManagment.Models;
+global using Clinic_managment_System.Clinic_System.Features.AccountManagement.Models;
+global using Clinic_managment_System.Clinic_System.Features.PatientManagment.Models;
+global using Clinic_managment_System.Clinic_System.Features.MedicalHistoryManagment.Models;
+global using Clinic_managment_System.Clinic_System.Features.TreatmentManagment.Models;
+global using Clinic_managment_System.Clinic_System.Features.FollowUpManagment.Models;
+global using Clinic_managment_System.Clinic_System.Shared.ResultsOfAPI;
