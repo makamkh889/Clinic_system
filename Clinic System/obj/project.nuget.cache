@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a7UJ0pJxLJQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\makam\\Music\\Clinic managment System\\Clinic System\\Clinic managment System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\makam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\makam\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

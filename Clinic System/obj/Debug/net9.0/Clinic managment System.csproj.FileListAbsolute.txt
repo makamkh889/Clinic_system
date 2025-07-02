@@ -1,0 +1,8 @@
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.csproj.AssemblyReference.cache
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.AssemblyInfoInputs.cache
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.AssemblyInfo.cs
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.csproj.CoreCompileInputs.cache
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\makam\Music\Clinic managment System\Clinic System\obj\Debug\net9.0\Clinic managment System.sourcelink.json
